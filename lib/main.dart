@@ -40,24 +40,30 @@ class _DicePageState extends State<DicePage> {
       child: Row(
         children: <Widget>[
           Expanded(
-            child: FlatButton(
-              child: Image.asset(
-                'images/dice$leftDiceNumber.png',
+            child: Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: TextButton(
+                child: Image.asset(
+                  'images/dice$leftDiceNumber.png',
+                ),
+                onPressed: () {
+                  changeDiceFace();
+                },
               ),
-              onPressed: () {
-                changeDiceFace();
-              },
             ),
           ),
           //Get students to create the second die as a challenge
           Expanded(
-            child: FlatButton(
-              child: Image.asset(
-                'images/dice$rightDiceNumber.png',
+            child: Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: TextButton(
+                child: Image.asset(
+                  'images/dice$rightDiceNumber.png',
+                ),
+                onPressed: () {
+                  changeDiceFace();
+                },
               ),
-              onPressed: () {
-                changeDiceFace();
-              },
             ),
           ),
         ],
