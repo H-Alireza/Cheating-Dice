@@ -10,6 +10,7 @@ Cheating Dice is a fun Flutter app that simulates rolling dice. However, there's
 
 ## Screenshot
 
-![Alt text](/1.jpg?raw=true "َMain page")
+<img src="/1.jpg" alt="Main page" width="50%">
+
 
 
